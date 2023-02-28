@@ -12,22 +12,22 @@ jan.geometry("600x300")
 jan.configure(background="white")
 jan.resizable(width=False, height=False)
 #jan.attributes("-alpha", 0,9)
-jan.iconbitmap(default="icons/LogoIcon.ico")
+#jan.iconbitmap(default="icons/LogoIcon.ico")
 #====== Carregando Image =====
-logo = PhotoImage(file= "icons/logo.png")
+#logo = PhotoImage(file= "icons/logo.png")
 
 
 
 #====== Widgests =======
 
 LeftFrame = Frame(jan, width=200, height=300, bg="MIDNIGHTBLUE", relief="raise")
-LeftFrame.pack(side=LEFT)
+#type: ignoreLeftFrame.pack(side=LEFT)
 
 RightFrame = Frame(jan, width=390, height=300, bg="MIDNIGHTBLUE", relief="raise")
 RightFrame.pack(side=RIGHT)
 
-logoLabel = Label(LeftFrame,image = logo, bg="MIDNIGHTBLUE" )
-logoLabel.place(x= 50, y = 100)
+#logoLabel = Label(LeftFrame,image = logo, bg="MIDNIGHTBLUE" )
+#logoLabel.place(x= 50, y = 100)
 
 userLabel = Label(RightFrame, text="Username: ", font=("Century Gothic", 20), bg="MIDNIGHTBLUE", fg = "White")
 userLabel.place(x= 5, y = 100)
